@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Open Sans', arial, sans-serif;
+    height:5000px ;
+}
+/*start header*/
+.header-main {
+    background: linear-gradient(rgba(0,0,20,0.4)) ,url('../../assets/img/header-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+.header-box {
+    width: 75%;
+    margin: 0px auto;
+    padding: 150px 0;
+}
+.header-box p {
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.header-buttons {
+    margin: 50px 0;
+}
+.header-button1 {
+    font-size: 20px;
+    background: #1a57a5;
+    border: solid #1a57a5 2px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 10px;
+}
+.header-button1:hover {
+    background: #103463;
+    border: solid white 2px;
+}
+.header-button2 {
+    font-size: 20px;
+    border: solid white 2px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 10px;
+}
+.header-button2:hover {
+    background: rgba(256, 225, 225, 0.4);
+}
+/*end header*/
+
+/*start services*/
+.services-main {
+    padding: 150px 0;
+}
+.services-box {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.service {
+    width: 30%;
+}
+.service>i {
+    color: #1a57a5;
+    font-size: 55px;
+}
+.service>h2 {
+    color: #1a57a5;
+    font-size: 24px;
+    margin: 30px 0;
+}
+.service>p {
+    width: 85%;
+    color: #565c65;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.service>a {
+    text-decoration: none;
+    color: #1a57a5;
+}
+.service>a>i {
+    font-size: 11px;
+    transition-duration: 0.4s;
+}
+.service>a:hover i{
+    margin: 0 10px;
+}
+/*end services*/
+
+/*start features*/
+.features-main {
+    padding: 150px 0;
+    background: #eef4fb;
+}
+.features-box {
+    width: 85%;
+    margin: 0 auto;
+}
+.sec-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-top-title {
+    font-size: 50px;
+    display: block;
+}
+.sec-top-line {
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 35px 0;
+    background: #1a57a5;
+    border-radius: 10px;
+}
+.sec-top-subtitle {
+    display: block;
+    text-align: center;
+    width: 65%;
+    color: #565c65;
+    line-height: 1.7;
+}
+/*end features*/
