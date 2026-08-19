@@ -7,7 +7,7 @@ body {
     height:5000px ;
 }
 /*start header*/
-.header-main {
+.header {
     background: linear-gradient(rgba(0,0,20,0.4)) ,url('../../assets/img/header-img.jpg');
     background-size: cover;
     background-position: center;
@@ -60,7 +60,7 @@ body {
 /*end header*/
 
 /*start services*/
-.services-main {
+.services {
     padding: 150px 0;
 }
 .services-box {
@@ -70,26 +70,37 @@ body {
     justify-content: space-between;
 }
 .service {
-    width: 30%;
+    border-radius: 20px;
+    width: 28%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.4s;
+}
+.service:hover {
+    box-shadow: 0 22px 48px -12px rgba(16, 24, 40, .20);
+    transform: translateY(-10px);
 }
 .service>i {
     color: #1a57a5;
-    font-size: 55px;
+    font-size: 70px;
+    margin: 10px 0;
 }
 .service>h2 {
     color: #1a57a5;
     font-size: 24px;
-    margin: 30px 0;
+    margin: 40px 0;
 }
 .service>p {
-    width: 85%;
+    width: 95%;
     color: #565c65;
     line-height: 1.7;
-    margin-bottom: 30px;
+
 }
 .service>a {
     text-decoration: none;
     color: #1a57a5;
+    margin: 40px 0;
 }
 .service>a>i {
     font-size: 11px;
@@ -101,7 +112,7 @@ body {
 /*end services*/
 
 /*start features*/
-.features-main {
+.features {
     padding: 150px 0;
     background: #eef4fb;
 }
@@ -132,5 +143,55 @@ body {
     width: 65%;
     color: #565c65;
     line-height: 1.7;
+    margin-bottom: 50px;
 }
+
+.features-items-box {
+    width: 90%;
+    margin: 0 auto;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-item-img {
+    width: 65%;
+}
+.features-item-img img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 45px -10px rgba(0, 0, 0, .15);
+    transition-duration: 0.4s;
+}
+.features-item-img img:hover {
+    box-shadow: 0 22px 48px -12px rgba(16, 24, 40, .20);
+    transform: translateY(-5px);
+}
+
+.features-item-content {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+}
+.features-item-title {
+    color: #1a57a5;
+    font-size: 35px;
+    margin: 35px 0;
+}
+.features-item-subtitle {
+    color: #565c65;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+.features-item-pros {
+    margin: 7px 0;
+    color: #565c65;
+    display: flex;
+}
+.features-item-pros i {
+    color: #1a57a5;
+    padding-right: 10px;
+}
+
 /*end features*/
