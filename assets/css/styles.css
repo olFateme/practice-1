@@ -73,8 +73,8 @@ body {
     border-radius: 20px;
     width: 28%;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
     transition-duration: 0.4s;
 }
 .service:hover {
@@ -97,23 +97,28 @@ body {
     line-height: 1.7;
 
 }
-.service>a {
-    text-decoration: none;
-    color: #1a57a5;
+.service-button {
     margin: 40px 0;
 }
-.service>a>i {
+.more-info {
+    color: #1a57a5;
+}
+.more-info>a {
+    text-decoration: none;
+    color: #1a57a5;
+}
+.more-info>i {
     font-size: 11px;
     transition-duration: 0.4s;
 }
-.service>a:hover i{
+.more-info:hover i{
     margin: 0 10px;
 }
 /*end services*/
 
 /*start features*/
 .features {
-    padding: 150px 0;
+    padding: 100px 0;
     background: #eef4fb;
 }
 .features-box {
@@ -121,13 +126,17 @@ body {
     margin: 0 auto;
 }
 .sec-top {
+
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .sec-top-title {
     font-size: 50px;
+    width: 65%;
     display: block;
+    text-align: center;
 }
 .sec-top-line {
     width: 60px;
@@ -140,7 +149,7 @@ body {
 .sec-top-subtitle {
     display: block;
     text-align: center;
-    width: 65%;
+    width: 70%;
     color: #565c65;
     line-height: 1.7;
     margin-bottom: 50px;
@@ -188,9 +197,85 @@ body {
     margin: 7px 0;
     color: #565c65;
     display: flex;
+    align-self: flex-start;
 }
 .item-pros i {
     color: #1a57a5;
     padding-right: 10px;
 }
 /*end features*/
+
+/*start plans*/
+.plans {
+    padding: 100px 0;
+}
+.plans-box {
+    width: 85%;
+    margin: 0 auto;
+}
+.plans-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.plan-item {
+    border: 1px solid #e7ebf1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 28%;
+    padding: 20px;
+    transition-duration: 0.4s;
+}
+.plan-item:hover {
+    box-shadow: 0 22px 48px -12px rgba(16, 24, 40, .20);
+    transform: translateY(-5px);
+}
+.plan-item.suggested {
+    border: 2px solid #1a57a5;
+    box-shadow: 0 22px 48px -12px rgba(16, 24, 40, .20);
+    transform: translateY(-5px);
+}
+.plan-item.suggested:hover {
+    transform: translateY(-10px);
+}
+.plan-name {
+    margin: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.plan-price {
+    color: #1a57a5;
+    font-size: 60px;
+    text-align: center;
+    margin: 15px 0;
+}
+.plan-features {
+    color: #bdbdbd;
+    margin: 30px 0;
+    text-align: center;
+}
+.button {
+    background: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 50px;
+    margin: 30px 0;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background: #262626;
+    transform: translateY(-2px);
+}
+.button.blue {
+    background: #1a57a5;
+    box-shadow: 0 14px 30px -10px rgba(26, 87, 165, .45);
+}
+.button.blue:hover {
+    background: #103463;
+    transform: translateY(-2px);
+}
+/*end plans*/
