@@ -184,14 +184,13 @@ body {
     margin-bottom: 30px;
     line-height: 1.7;
 }
-.features-item-pros {
+.item-pros {
     margin: 7px 0;
     color: #565c65;
     display: flex;
 }
-.features-item-pros i {
+.item-pros i {
     color: #1a57a5;
     padding-right: 10px;
 }
-
 /*end features*/
