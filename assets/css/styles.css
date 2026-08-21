@@ -137,6 +137,7 @@ body {
     width: 65%;
     display: block;
     text-align: center;
+    line-height: 1.5;
 }
 .sec-top-line {
     width: 60px;
@@ -152,7 +153,7 @@ body {
     width: 70%;
     color: #565c65;
     line-height: 1.7;
-    margin-bottom: 50px;
+        /*margin-bottom: 50px;*/
 }
 
 .features-items-box {
@@ -337,3 +338,41 @@ body {
     margin: 20px 0;
 }
 /*end reviews*/
+
+/*start try today*/
+.try-today {
+    padding: 100px 0;
+}
+.try-today-box {
+    width: 85%;
+    margin: 0 auto;
+}
+.try-today-img {
+    /*margin: 100px 0;*/
+    display: flex;
+    align-items: center;
+    margin: 100px 0 40px 0;
+}
+.try-today-img img {
+    width: 100%;
+}
+.try-today-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.try-today-item {
+    width: 48%;
+    margin: 15px 0;
+    /*padding: 20px;*/
+}
+.question {
+    color: #0A0A0A;
+    font-size: 30px;
+}
+.answer {
+    color: #565c65;
+    margin-top: 30px;
+    line-height: 1.7;
+}
+/*end try today*/
