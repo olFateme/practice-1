@@ -459,3 +459,35 @@ body {
 
 }
 /*end contact*/
+
+/*start footer*/
+.footer {
+    background: linear-gradient(135deg, rgb(26, 87, 165) 0%, rgb(15, 58, 107) 100%);
+    padding: 20px 0;
+}
+/*.footer-box {*/
+/*    width: 85%;*/
+/*}*/
+.footer-box a {
+    color: #95AECC;
+    text-decoration: none;
+}
+.footer-box a:hover {
+    color: white;
+}
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 40px 0;
+}
+.footer-contact a {
+    margin: 0 15px;
+}
+.footer-info {
+    text-align: center;
+    color: white;
+    line-height: 1.7;
+    margin: 40px 0;
+}
+/*end footer*/
