@@ -406,3 +406,56 @@ body {
     line-height: 1.7;
 }
 /*end join*/
+
+/*stat contact*/
+.contact {
+    padding: 150px 0;
+    background: #eef4fb;
+}
+.contact-box {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 43%;
+    padding: 40px;
+    border-radius: 10px;
+}
+.form-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.form-input {
+    font-family: 'Open Sans', arial, sans-serif;
+    padding: 15px;
+    margin: 7px;
+    border-radius: 10px;
+    border: 1px solid #d7dce4;
+}
+.form-input:focus {
+    border: 1px solid #1a57a5;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+.contact-info {
+    width: 37%;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.info {
+    margin-bottom: 30px;
+}
+.info-title {
+    color: #8b919b;
+    display: block;
+}
+.info-subtitle {
+    color: #5B6069;
+
+}
+/*end contact*/
