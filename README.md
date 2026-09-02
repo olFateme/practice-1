@@ -1,6 +1,6 @@
 # Frame — HTML & CSS Practice Project
 
-A responsive landing page built with **HTML5** and **CSS3** as my first practical project while learning Front-End Development.
+A landing page built with **HTML5** and **CSS3** as my first practical project while learning Front-End Development.
 
 ## 📌 About The Project
 
